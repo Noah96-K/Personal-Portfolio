@@ -1,0 +1,120 @@
+.title {
+  color: #2196f3;
+  margin-top: 60px;
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.header:hover {
+  cursor: wait;
+}
+.header:hover span:nth-child(2) {
+  opacity: 1;
+  transition: 1s;
+}
+.header:hover span:nth-child(3) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 0.2s;
+}
+.header:hover span:nth-child(3) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 0.4s;
+}
+.header:hover span:nth-child(4) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 0.6s;
+}
+.header:hover span:nth-child(5) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 0.8s;
+}
+.header:hover span:nth-child(6) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 1s;
+}
+.header:hover span:nth-child(7) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 1.2s;
+}
+.header:hover span:nth-child(8) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 1.4s;
+}
+.header:hover span:nth-child(9) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 1.6s;
+}
+.header:hover span:nth-child(10) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 1.8s;
+}
+.header:hover span:nth-child(11) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 2s;
+}
+.header:hover span:nth-child(12) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 2.2s;
+}
+.header:hover span:nth-child(13) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 2.4s;
+}
+.header:hover span:nth-child(14) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 2.6s;
+}
+.header:hover span:nth-child(15) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 2.8s;
+}
+.header:hover span:nth-child(16) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 3s;
+}
+.header:hover span:nth-child(17) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 3.2s;
+}
+.header:hover span:nth-child(18) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 3.4s;
+}
+.header:hover span:nth-child(19) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 3.6s;
+}
+.header:hover span:nth-child(20) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 3.8s;
+}
+.header:hover span:nth-child(21) {
+  opacity: 1;
+  transition: 2s;
+  transition-delay: 4s;
+}
+
+.header span {
+  color: rosybrown;
+  font-size: 20px;
+  opacity: 0;
+}

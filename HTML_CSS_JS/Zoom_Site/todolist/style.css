@@ -1,0 +1,152 @@
+@import "reset.css";
+
+body {
+  background-color: peru;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.js-clock {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #34495e;
+  transition: color 0.5s ease-in-out;
+  font-family: "Balsamiq Sans", cursive;
+  font-weight: 700;
+  font-size: 10rem;
+  padding-top: 10%;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.greetings {
+  font-size: 4rem;
+  font-family: "Permanent Marker", cursive;
+  color: bisque;
+}
+.showing {
+  display: block;
+}
+
+.form input,
+.js-toDoForm input {
+  margin-top: 5px;
+  width: 500px;
+  background-color: burlywood;
+  font-family: "Permanent Marker", cursive;
+  border: none;
+
+  height: 40px;
+  border-radius: 5px;
+}
+
+.form input:hover,
+.js-toDoForm input:hover {
+  animation: float 2s linear infinite forwards;
+  background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+}
+@keyframes float {
+  0% {
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3),
+      0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+  50% {
+    box-shadow: 0 30px 60px -60px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3),
+      0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+  100% {
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3),
+      0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 1s linear;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+li button {
+  border-radius: 5px;
+  border: none;
+  background-color: rosybrown;
+  color: crimson;
+  width: 50px;
+  height: 30px;
+  margin: 3px;
+  margin-right: 7px;
+}
+li button:hover {
+  background-image: linear-gradient(to right, #eecda3, #ef629f);
+}
+li span {
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  margin-top: 2px;
+  color: darkolivegreen;
+  font-weight: bolder;
+}
+
+.js-weather {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 1rem;
+  font-weight: bolder;
+  position: fixed;
+  top: 95%;
+}
+
+.neon {
+  margin-top: 5px;
+  margin-bottom: -40px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.neon .neon__effect {
+  color: rgb(202, 213, 223);
+}
+
+body .neon__effect:hover {
+  background-color: #ff5f6d;
+  box-shadow: 0 0 10px #ff5f6d, 0 0 40px #ff5f6d, 0 0 80px #ff5f6d;
+}
+
+body .neon__effect span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, #ff5f6d);
+}
+body .neon__effect span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, #ff5f6d);
+}
+body .neon__effect span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, #ff5f6d);
+}
+body .neon__effect span:nth-child(4) {
+  background: linear-gradient(360deg, transparent, #ff5f6d);
+}

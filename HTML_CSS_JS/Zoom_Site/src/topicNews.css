@@ -1,0 +1,20 @@
+@import "./topic.css";
+
+.random_part {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.random_part-1,
+.random_part-2,
+.random_part-3 {
+  display: flex;
+  margin: 5px;
+}
+
+.random_part-1 div,
+.random_part-2 div,
+.random_part-3 div {
+  margin-left: 10px;
+}

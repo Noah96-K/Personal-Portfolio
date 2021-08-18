@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <title>😍Zoom!</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="title">
+        🎈"TITLE"🎊
+      </h1>
+      <span>T</span>
+      <span>H</span>
+      <span>I</span>
+      <span>S&nbsp;</span>
+
+      <span> S</span>
+      <span>I</span>
+      <span>T</span>
+      <span>E&nbsp;</span>
+      <span>I</span>
+      <span>S&nbsp;</span>
+      <span>M</span>
+      <span>A</span>
+      <span>D</span>
+      <span>E&nbsp;</span>
+      <span>B</span>
+      <span>Y&nbsp;</span>
+      <span>N</span>
+      <span>O</span>
+      <span>A</span>
+      <span>H</span>
+    </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="img__box">
+            <img class="img__box-img img1" src="./images/one.jpg" alt="" />
+          </div>
+          <a href="topic.html">
+            <div class="details">
+              <h3>WEDNESDAY <br /><span>TOPIC</span></h3>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <div class="img__box">
+            <img class="img__box-img img2" src="./images/two.jpg" alt="" />
+          </div>
+          <a href="news.html">
+            <div class="details">
+              <h3>THURSDAY <br /><span>NEWS</span></h3>
+            </div>
+          </a>
+        </div>
+        <!-- <div class="swiper-slide">
+          <div class="img__box">
+            <img class="img__box-img" src="./images/three.jpg" alt="" />
+          </div>
+          <a href="topic.html">
+            <div class="details">
+              <h3>Day 3 <br /><span>TOPIC</span></h3>
+            </div>
+          </a>
+        </div> -->
+        <div class="swiper-slide">
+          <div class="img__box">
+            <img class="img__box-img img4" src="./images/four.jpg" alt="" />
+          </div>
+          <a href="lesson.html"
+            ><div class="details">
+              <h3>FRIDAY <br /><span>LESSON</span></h3>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <div class="img__box">
+            <img class="img__box-img img4" src="./images/five.jpg" alt="" />
+          </div>
+          <a href="todolist/index.html"
+            ><div class="details">
+              <h3>YOUR <br /><span>TO DO LIST</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="neon">
+      <a href="./index.html" class="neon__effect">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Home
+      </a>
+    </div>
+    <script src="index.js"></script>
+    <script type="text/javascript" src="swiper.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 70,
+          stretch: 0,
+          depth: 500,
+          modifier: 5,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>

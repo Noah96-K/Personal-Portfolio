@@ -1,0 +1,105 @@
+@import "./reset.css";
+@import "./neonEffect.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #262626;
+  font-family: consolas;
+  font-size: 14px;
+  color: #031321;
+  margin: 0;
+  padding: 0;
+}
+
+.instruction {
+  margin-top: 20%;
+}
+.random {
+  margin-top: 1%;
+}
+.home {
+  margin-top: 1%;
+}
+
+body .invisible {
+  display: none;
+}
+
+.instruction__box,
+.random__box {
+  margin-top: 10%;
+  position: fixed;
+  width: 35%;
+  height: 40%;
+  background-color: #3b3a3a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2196f3;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+}
+.instruction__box {
+  height: 60%;
+}
+
+.touch {
+  color: #8a53e2;
+  position: fixed;
+  font-family: "Bebas Neue", cursive;
+  z-index: 2;
+  top: 250px;
+}
+.instruction__title {
+  color: #8a53e2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.intro {
+  margin: 10px;
+  color: #8a53e2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+}
+.instruction__first {
+  margin-top: 20px;
+}
+
+.random__box {
+  color: #8a53e2;
+  font-family: "Bebas Neue", cursive;
+}
+
+body .touch:hover {
+  background: #8a53e2;
+  box-shadow: 0 0 10px #8a53e2, 0 0 40px #8a53e2, 0 0 80px #8a53e2;
+}
+
+body .touch span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, #8a53e2);
+}
+
+body .touch span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, #8a53e2);
+}
+
+body .touch span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, #8a53e2);
+}
+
+body .touch span:nth-child(4) {
+  background: linear-gradient(360deg, transparent, #8a53e2);
+}
+
+.random__title {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+.random_part {
+  font-size: 1.5rem;
+  margin-top: 150px;
+}
