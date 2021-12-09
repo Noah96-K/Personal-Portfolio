@@ -36,31 +36,7 @@ BEGIN
 END //
 DELIMITER ;
 
- CREATE FUNCTION Find_Average_Salary(buildingName VARCHAR(50))
-          BEGIN
-			declare finished int default 0;
-            declare salarySum int(10) default 0;
-            declare salaryIndi int(10);
-            declare numPeo int(10);
-            DECLARE buildRec CURSOR FOR
-              select e.salary
-              from Employees e, Departments d
-              where e.Dept=d.DeptID and
-              d.DeptLocation=buildingName;
-			declare continue handler for not found set finished=1;
-            
-            OPEN buildRec;
-            REPEAT
-              fetch buildRec into salaryIndi;
-              if(not finished=1)then
-				salarySum=salarySum+salaruIndi;
-				numPeo=numPeo+1;
-			   end if;
-			until finished
-            END REPEAT;
-            select salarySum/numPeo into 'average salary'
-            CLOSE buildRec;
-END//
+
 
 -- task 3
 
