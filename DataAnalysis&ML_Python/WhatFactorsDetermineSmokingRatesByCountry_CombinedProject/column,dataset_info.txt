@@ -1,0 +1,71 @@
+info (column, dataset)
+
+1.affordability.csv
+-Affordability(column) : (https://www.who.int/data/gho/indicator-metadata-registry/imr-details/4613)
+			 Percentage of a country's GDP per capita required to purchase 2000 cigarettes (100 packets) of the most sold brand of cigarettes in the country.
+			 The higher the percentage, the less affordable cigarettes are.
+		
+
+2.MPower_Overview.csv
+- m Monitor(column): (https://www.who.int/data/gho/indicator-metadata-registry/imr-details/339)
+		     A score between 1 and 4 that measures the implementation status of measures to monitor tobacco use through surveys
+			1 = No known or recent data or data that is not recent and representative
+			2 = Recent and representative data for either adults or youth
+			3 = Recent and representative data for both adults and youth
+			4 = Recent, representative and periodic data for both adults and youth
+
+		- Recent refers to data collected in the data year or the five years previous to the data year.
+		- Representative means that data is indicative of the national population
+		- Periodic means that the survey is repeated at least every five years
+
+
+- r Raise taxes on tobacco(column): (https://www.who.int/data/gho/indicator-metadata-registry/imr-details/374)
+				    Measures the implementation status of a country raising taxes on the most popular brand of cigarettes. Includes excise tax,
+				    valued added tax ("VAT"), import duty, and any other taxes levied.
+					1 = Data not reported
+					2 = Less than 25% of retail price is tax
+					3 = 26-50% of retail price is tax
+					4 = 51-75% of retail price is tax
+					5 = Greater than 75% of retail price is tax
+
+- w Warn about the dangers of tobacco(column): (https://www.who.int/data/gho/indicator-metadata-registry/imr-details/1221)
+					     	Country's legislation is assessed to determine whether specific health warnings on tobacco product packaging are mandated.
+						1 = Data not reported
+						2 = No warning or warning covers less than 30% of pack surface
+						3 = Warning covers more than 30% of pack surface but no pictures or pictograms and/or appropriate characteristics
+						4 = Warning covers 31-49% of pack surface, includes pictures or pictograms and other appropriate characteristics
+						5 = Warning covers more than 50% of pack surface, includes pictures or pictograms and appropriate characteristics
+
+
+- o Offer help to quit tobacco use(column): (https://www.who.int/data/gho/indicator-metadata-registry/imr-details/343)
+					    Measures the level of assistance country's provide to help individuals quit using tobacco based on the
+					    availability and non-availability of particular tobacco cessation aids.
+						1 = Data not reported
+						2 = None
+						3 = Nicotine Replacement Therapy and/or some cessation services with neither cost-covered
+						4 = Nicotine Replacement Therapy and/or some cessation service with at least one of which is cost-covered
+						5 = National quit line, and both Nicotine Replacement Therapy and some cessation services, all cost-covered
+
+- e Enforce bans on tobacco advertising(column): (https://www.who.int/data/gho/indicator-metadata-registry/imr-details/373
+						 Country's legislation is assessed to determine whether all or any forms of tobacco advertising, promotion and
+						 sponsorship are banned. 
+						1 = Data not reported
+						2 = Complete absence of ban, or ban that does not cover national television, radio and print media
+						3 = Ban on national television, radio and print media only
+						4 = Ban on national television, radio and print media as well as on some but not all other other forms of direct
+						    and or indirect advertising
+						5 = Ban on all forms of direct and indirect advertising 
+
+3.current_tobacco_use.csv
+-Age-standardized estimates of current tobacco use, tobacco smoking and cigarette smoking, data by country
+
+-Prevalence of current tobacco use among persons aged 15 years and older (age-standardized rate)(column):
+		(https://www.who.int/data/gho/indicator-metadata-registry/imr-details/5562)
+		Percentage of population aged 15 years and over who currently use any tobacco product. Excludes e-cigarettes and other products which do not contain tobacco.
+		
+
+4.national taxes on cigarettes .csv
+-Most sold brand of cigarettes - taxes as a % of price - total tax(column) : 
+		(https://www.who.int/data/gho/indicator-metadata-registry/imr-details/1223)
+		Considers the exact contribution of all taxes in the price of a packet of the most popular brand of cigarettes. It thus calculates the size of 
+		tobacco taxes in a country.
