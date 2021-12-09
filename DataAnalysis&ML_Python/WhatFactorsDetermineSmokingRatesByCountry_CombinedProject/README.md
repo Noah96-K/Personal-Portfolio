@@ -1,11 +1,10 @@
-# Group 29 Project Proposal
+# Project Proposal 
 
 ## What Factors Determine Smoking Rates by Country?
-#### Aman Jaswal (46486747), Hyeokjin kwon (46135057), Omair Mohammed (45972907), Muhammad Khaled (44978286)
 
 Do increased taxes on cigarettes cause their affordability to decrease? Does this decrease the rates of cigarette smoking within countries? Our Project will aim to determine whether there is a correlation between government tax structures and the affordability of cigarettes and whether this affects the rates of cigarette smoking in countries.
 
-Our Project will also aim to find out which other policies have the greatest impact on smoking rates, such as enforcing bans on advertising or placing warnings on packages.
+This Project will also aim to find out which other policies have the greatest impact on smoking rates, such as enforcing bans on advertising or placing warnings on packages.
 
 ## Data Sets to be used
 
